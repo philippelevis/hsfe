@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hypixel_skyblock:blocks/portal",
+    "up": "hypixel_skyblock:blocks/portal",
+    "north": "hypixel_skyblock:blocks/portal",
+    "east": "hypixel_skyblock:blocks/portal",
+    "south": "hypixel_skyblock:blocks/portal",
+    "west": "hypixel_skyblock:blocks/portal",
+    "particle": "hypixel_skyblock:blocks/portal"
+  },
+  "render_type": "solid"
+}

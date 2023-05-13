@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hypixel_skyblock:blocks/planks_oak",
+    "up": "hypixel_skyblock:blocks/crafting_table_top",
+    "north": "hypixel_skyblock:blocks/crafting_table_front",
+    "east": "hypixel_skyblock:blocks/crafting_table_side",
+    "south": "hypixel_skyblock:blocks/crafting_table_side",
+    "west": "hypixel_skyblock:blocks/crafting_table_side",
+    "particle": "hypixel_skyblock:blocks/planks_oak"
+  },
+  "render_type": "solid"
+}

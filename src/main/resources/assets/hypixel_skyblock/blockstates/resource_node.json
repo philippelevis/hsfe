@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "hypixel_skyblock:block/resource_node",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "hypixel_skyblock:block/resource_node"
+    },
+    "axis=z": {
+      "model": "hypixel_skyblock:block/resource_node",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+JVM:         /home/philippelevis/Games/Minecraft/MCreator20231/jdk/bin/java
+JVM Args:    
+Run Args:    "--inJar", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/rename/output.jar", "--outJar", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/AccessTransformer/output.jar", "--atFile", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/src/main/resources/META-INF/accesstransformer.cfg", "--atFile", "/tmp/FG_ats_1543556860530451475.cfg"
+Classpath:   /home/philippelevis/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working Dir: /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

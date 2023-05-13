@@ -1,0 +1,85 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_disguise_block",
+          "text": {
+            "fixedValue": "disguise block"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 50
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 140,
+          "y": 74
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "100",
+          "name": "ticks",
+          "width": 120,
+          "height": 20,
+          "x": 179,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_replace_ticks",
+          "text": {
+            "fixedValue": "replace ticks"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 225,
+          "y": 50
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

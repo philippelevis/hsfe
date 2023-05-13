@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityWither"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      }
+    ],
+    "biomes": [],
+    "name": "wither",
+    "namespace": "mod"
+  }
+}

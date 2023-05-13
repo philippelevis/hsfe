@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "void"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.AIR"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "SkyblockislandPlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "portalParticles": {
+      "value": "CRIT"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Skyblock island Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "igniter",
+    "portalTexture": "portal",
+    "enablePortal": true
+  }
+}

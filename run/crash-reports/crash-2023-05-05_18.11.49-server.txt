@@ -1,0 +1,85 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 2023-05-05 18:11:49
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.attributes.AttributeInstance.getBaseValue()" because the return value of "net.minecraft.world.entity.LivingEntity.getAttribute(net.minecraft.world.entity.ai.attributes.Attribute)" is null
+	at net.philippelevis.hypixelskyblock.procedures.HyperionRightClickedInAirProcedure.lambda$execute$2(HyperionRightClickedInAirProcedure.java:75) ~[%23183!/:?] {re:classloading}
+	at net.philippelevis.hypixelskyblock.HypixelSkyblockMod.lambda$tick$2(HypixelSkyblockMod.java:96) ~[%23183!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
+	at net.philippelevis.hypixelskyblock.HypixelSkyblockMod.tick(HypixelSkyblockMod.java:96) ~[%23183!/:?] {re:classloading}
+	at net.philippelevis.hypixelskyblock.__HypixelSkyblockMod_tick_ServerTickEvent.invoke(.dynamic) ~[%23183!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23101!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23101!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23101!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:840) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23177%23184!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:843) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23178!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23178!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23178!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23178!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 5.15.0-58-generic
+	Java Version: 17.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 380141568 bytes (362 MiB) / 1268776960 bytes (1210 MiB) up to 1556086784 bytes (1484 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Athlon(tm) 64 X2 Dual Core Processor 5200+
+	Identifier: AuthenticAMD Family 15 Model 107 Stepping 2
+	Microarchitecture: K8 / Hammer
+	Frequency (GHz): 2.70
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: GP108 [GeForce GT 1030]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x1d01
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 5014.03
+	Virtual memory used (MB): 5591.23
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 402.61
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/168, l='ServerLevel[New World]', x=16.59, y=3.00, z=148.60]]
+	Data Packs: vanilla, mod:hypixel_skyblock, mod:forge
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.|Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |hypixel skyblock              |hypixel_skyblock              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |43.2.0              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 8ceb618c-6095-4d69-ac50-32cb173f2b9a
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

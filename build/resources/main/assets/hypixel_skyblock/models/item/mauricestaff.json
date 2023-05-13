@@ -1,0 +1,7 @@
+{
+  "parent": "hypixel_skyblock:custom/uk_bullet",
+  "textures": {
+    "0": "hypixel_skyblock:blocks/bullet",
+    "particle": "hypixel_skyblock:items/mauricestaff"
+  }
+}

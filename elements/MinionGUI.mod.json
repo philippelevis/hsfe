@@ -1,0 +1,399 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 180,
+    "height": 210,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 20,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "empty.png",
+          "use1Xscale": false,
+          "x": 184,
+          "y": 24
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "profile.png",
+          "use1Xscale": false,
+          "x": 200,
+          "y": 24
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_next_tier",
+          "image": "next_tier.png",
+          "hoveredImage": "next_tier.png",
+          "x": 216,
+          "y": 24
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pick_up",
+          "image": "pick_up.png",
+          "hoveredImage": "pick_up.png",
+          "x": 280,
+          "y": 120
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_quik_upgrd_notavail",
+          "image": "quik_upgrd_notavail.png",
+          "hoveredImage": "quik_upgrd_notavail.png",
+          "x": 232,
+          "y": 120
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_collect_all",
+          "image": "collect_all.png",
+          "hoveredImage": "collect_all.png",
+          "x": 184,
+          "y": 120
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 184,
+          "y": 56
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 202,
+          "y": 56
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 220,
+          "y": 56
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 238,
+          "y": 56
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 256,
+          "y": 56
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 184,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 202,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 220,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 238,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 256,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 184,
+          "y": 92
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 11,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 202,
+          "y": 92
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 12,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 220,
+          "y": 92
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 13,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 238,
+          "y": 92
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 14,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 256,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_minion",
+          "text": {
+            "fixedValue": "Minion"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 136,
+          "y": 24
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_hypixel_compass",
+          "image": "hypixel_compass.png",
+          "hoveredImage": "",
+          "x": 136,
+          "y": 40
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 15,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 136,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel.png",
+          "use1Xscale": false,
+          "x": 137,
+          "y": 56
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 16,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 136,
+          "y": 74
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 17,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "UpgradeHandler"
+          },
+          "x": 136,
+          "y": 92
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 18,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "UpgradeHandler"
+          },
+          "x": 136,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "automated_shipping.png",
+          "use1Xscale": false,
+          "x": 137,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgrade_slot.png",
+          "use1Xscale": false,
+          "x": 137,
+          "y": 93
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgrade_slot.png",
+          "use1Xscale": false,
+          "x": 137,
+          "y": 111
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 32,
+      "sy": 32,
+      "ox": 15,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

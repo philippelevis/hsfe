@@ -1,0 +1,16 @@
+JVM:         /home/philippelevis/Games/Minecraft/MCreator20231/jdk/bin/java
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/downloadClientMappings/client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/mergeMappings/output.jar"
+Classpath:   /home/philippelevis/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.2.0/installertools-1.2.0-fatjar.jar
+Working Dir: /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config/joined.tsrg
+         null
+Right:   /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/downloadClientMappings/client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/mergeMappings/output.jar

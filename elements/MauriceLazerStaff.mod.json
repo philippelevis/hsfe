@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "mauricestaff",
+    "customModelName": "Normal",
+    "name": "Maurice Lazer Staff",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 100.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Maurice.spawn_egg"
+    },
+    "bulletModel": "Modeluk_bullet",
+    "customBulletModelTexture": "uk_bullet_ent.png",
+    "onBulletHitsBlock": {
+      "name": "MauriceLazerStaffProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "MauriceLazerStaffProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "MauriceLazerStaffWhileProjectileFlyingTick"
+    }
+  }
+}

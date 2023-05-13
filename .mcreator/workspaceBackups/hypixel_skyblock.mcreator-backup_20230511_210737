@@ -1,0 +1,1380 @@
+{
+  "mod_elements": [
+    {
+      "name": "HyperionRightClickedInAir",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperion_right_clicked_in_air",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/HyperionRightClickedInAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weapons/hyperion"
+    },
+    {
+      "name": "Shadowwarp",
+      "type": "enchantment",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowwarp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/enchantment/ShadowwarpEnchantment.java"
+        ]
+      },
+      "path": "~/enchants"
+    },
+    {
+      "name": "Hyperion",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/item/HyperionItem.java",
+          "src/main/resources/assets/hypixel_skyblock/models/item/hyperion.json"
+        ]
+      },
+      "path": "~/weapons/hyperion"
+    },
+    {
+      "name": "Implosion",
+      "type": "enchantment",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "implosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/enchantment/ImplosionEnchantment.java"
+        ]
+      },
+      "path": "~/enchants"
+    },
+    {
+      "name": "Withershield",
+      "type": "enchantment",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withershield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/enchantment/WithershieldEnchantment.java"
+        ]
+      },
+      "path": "~/enchants"
+    },
+    {
+      "name": "SkyblockislandPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyblockisland_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/SkyblockislandPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dimensions"
+    },
+    {
+      "name": "Skyblockisland",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyblockisland",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/block/skyblockisland_portal_ew.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/world/dimension/SkyblockislandDimension.java",
+          "src/main/resources/assets/hypixel_skyblock/models/block/skyblockisland_portal_ns.json",
+          "src/main/resources/assets/hypixel_skyblock/models/item/skyblockisland.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/SkyblockislandPortalBlock.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/world/teleporter/SkyblockislandPortalShape.java",
+          "src/main/resources/data/hypixel_skyblock/dimension/skyblockisland.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/item/SkyblockislandItem.java",
+          "src/main/resources/data/hypixel_skyblock/dimension_type/skyblockisland.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/world/teleporter/SkyblockislandTeleporter.java",
+          "src/main/resources/assets/hypixel_skyblock/blockstates/skyblockisland_portal.json"
+        ]
+      },
+      "path": "~/dimensions"
+    },
+    {
+      "name": "HyperionLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyperion_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/HyperionLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/hyperion"
+    },
+    {
+      "name": "HyperionarmorArmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necron_armor",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/necron_armor_boots.json",
+          "src/main/resources/assets/hypixel_skyblock/models/item/necron_armor_chestplate.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/item/HyperionarmorArmorItem.java",
+          "src/main/resources/assets/hypixel_skyblock/models/item/necron_armor_leggings.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Hypixel",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hypixel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EnchantedRedstone",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_redstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/enchanted_redstone.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/item/EnchantedRedstoneItem.java"
+        ]
+      },
+      "path": "~/materials"
+    },
+    {
+      "name": "Maurice",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "maurice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/entity/MauriceEntity.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/client/renderer/MauriceRenderer.java",
+          "src/main/resources/assets/hypixel_skyblock/models/item/maurice_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Mauricestaff",
+      "type": "rangeditem",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mauricestaff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/client/renderer/MauricestaffRenderer.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/entity/MauricestaffEntity.java",
+          "src/main/resources/assets/hypixel_skyblock/models/item/mauricestaff.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/item/MauricestaffItem.java"
+        ]
+      },
+      "path": "~/weapons/mauricestaff"
+    },
+    {
+      "name": "MauricestaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mauricestaff_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/MauricestaffWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/mauricestaff"
+    },
+    {
+      "name": "MauricestaffProjectileHits",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mauricestaff_projectile_hits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/MauricestaffProjectileHitsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/weapons/mauricestaff"
+    },
+    {
+      "name": "ResourceNode",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/resource_node.json",
+          "src/main/resources/assets/hypixel_skyblock/models/block/resource_node.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/entity/ResourceNodeBlockEntity.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/ResourceNodeBlock.java",
+          "src/main/resources/assets/hypixel_skyblock/blockstates/resource_node.json"
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "ResourceNodePlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node_player_starts_to_destroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/ResourceNodePlayerStartsToDestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "ResourceNodeGUI",
+      "type": "gui",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/world/inventory/ResourceNodeGUIMenu.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/client/gui/ResourceNodeGUIScreen.java"
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "ResourceNodeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/ResourceNodeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "ResourceNodeCrops",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node_crops",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/resource_node_crops.json",
+          "src/main/resources/assets/hypixel_skyblock/blockstates/resource_node_crops.json",
+          "src/main/resources/assets/hypixel_skyblock/models/block/resource_node_crops.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/ResourceNodeCropsBlock.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/entity/ResourceNodeCropsBlockEntity.java"
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "Autopickup",
+      "type": "attribute",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "autopickup",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "ResourceNodeCropsUpdateTick",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node_crops_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/ResourceNodeCropsUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "ResourceNodeCropsNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resource_node_crops_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/ResourceNodeCropsNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative/NatGenerators"
+    },
+    {
+      "name": "MauriceLazerStaff",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maurice_lazer_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/maurice_lazer_staff.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/entity/MauriceLazerStaffEntity.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/client/renderer/MauriceLazerStaffRenderer.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/item/MauriceLazerStaffItem.java"
+        ]
+      },
+      "path": "~/specal_creative"
+    },
+    {
+      "name": "Lazer",
+      "type": "particle",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lazer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/client/particle/LazerParticle.java",
+          "src/main/resources/assets/hypixel_skyblock/particles/lazer.json"
+        ]
+      },
+      "path": "~/specal_creative"
+    },
+    {
+      "name": "MauriceLazerStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maurice_lazer_staff_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/MauriceLazerStaffWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative"
+    },
+    {
+      "name": "MauriceLazerStaffProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maurice_lazer_staff_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/MauriceLazerStaffProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative"
+    },
+    {
+      "name": "HsfeCraftingTable",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hsfe_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/block/hsfe_crafting_table.json",
+          "src/main/resources/assets/hypixel_skyblock/models/item/hsfe_crafting_table.json",
+          "src/main/resources/assets/hypixel_skyblock/blockstates/hsfe_crafting_table.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/HsfeCraftingTableBlock.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/block/entity/HsfeCraftingTableBlockEntity.java"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "Craft",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/world/inventory/CraftMenu.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/client/gui/CraftScreen.java"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "Resistance",
+      "type": "attribute",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistance",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes/health-related"
+    },
+    {
+      "name": "CalculateResistances",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calculate_resistances",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/CalculateResistancesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/attributes/health-related"
+    },
+    {
+      "name": "GenericMinion",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generic_minion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/generic_minion_spawn_egg.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/client/renderer/GenericMinionRenderer.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/entity/GenericMinionEntity.java"
+        ]
+      },
+      "path": "~/specal_creative/Minions"
+    },
+    {
+      "name": "MinionGUI",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minion_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/client/gui/MinionGUIScreen.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/network/MinionGUISlotMessage.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/world/inventory/MinionGUIMenu.java"
+        ]
+      },
+      "path": "~/specal_creative/Minions"
+    },
+    {
+      "name": "GenericMinionOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generic_minion_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specal_creative/Minions"
+    },
+    {
+      "name": "Absorption",
+      "type": "attribute",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorption",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes/health-related"
+    },
+    {
+      "name": "Strength",
+      "type": "attribute",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "Defence",
+      "type": "attribute",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defence",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "Betterhealth",
+      "type": "attribute",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betterhealth",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes/health-related"
+    },
+    {
+      "name": "ManaOverlay",
+      "type": "overlay",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/client/screens/ManaOverlayOverlay.java"
+        ]
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "Mana",
+      "type": "attribute",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "SetIslandSpawnProc",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_island_spawn_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/SetIslandSpawnProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "SetIslandSpawn",
+      "type": "command",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_island_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/command/SetIslandSpawnCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "UpgradeHandler",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/UpgradeHandlerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/specal_creative/Minions"
+    },
+    {
+      "name": "AutoSmelter",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hypixel_skyblock/models/item/auto_smelter.json",
+          "src/main/java/net/philippelevis/hypixelskyblock/item/AutoSmelterItem.java"
+        ]
+      },
+      "path": "~/minions/upgrades"
+    },
+    {
+      "name": "DiamondMinion",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_minion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/client/renderer/DiamondMinionRenderer.java",
+          "src/main/java/net/philippelevis/hypixelskyblock/entity/DiamondMinionEntity.java"
+        ]
+      },
+      "path": "~/minions/entities"
+    },
+    {
+      "name": "DiamondMinionItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_minion_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/procedures/DiamondMinionItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/minions/items"
+    },
+    {
+      "name": "DiamondMinionItem",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_minion_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/philippelevis/hypixelskyblock/item/DiamondMinionItemItem.java",
+          "src/main/resources/assets/hypixel_skyblock/models/item/diamond_minion_item.json"
+        ]
+      },
+      "path": "~/minions/items"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/impact_projectiles.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beehive_inhabitor_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/beehive_inhabitors.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/raiders.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/skeletons.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "Wither",
+      "type": "tag",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hypixel_skyblock/tags/entity_types/wither.json"
+        ]
+      },
+      "path": "~/tags"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "mana_max",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "Player_islandSpawn_X",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Player_islandSpawn_Y",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "30.0"
+    },
+    {
+      "name": "Player_islandSpawn_Z",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "islandSpawn_default_X",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "islandSpawn_default_Y",
+      "type": "number",
+      "scope": "world",
+      "value": "30.0"
+    },
+    {
+      "name": "islandSpawn_default_Z",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "islandSpawnOffset_X",
+      "type": "number",
+      "scope": "map",
+      "value": "400.0"
+    },
+    {
+      "name": "islandSpawnOffset_Z",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "health_max",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "overheal",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_farming_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_mining_lvl",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "skill_combat_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_foraging_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_fishing_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_enchant_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_alchemy_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_taming_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_dungeon_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_carpentry_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_runes_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "skill_socal_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "uk_bulletshot",
+      "files": [
+        "ultraikll_bulletshot"
+      ],
+      "category": "neutral",
+      "subtitle": "ultrakill-styled bullet shot"
+    },
+    {
+      "name": "ultrakill_lazer",
+      "files": [
+        "maurice_lazer_charge"
+      ],
+      "category": "neutral",
+      "subtitle": "ultrakill LAZER shot"
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "gui.hypixel_skyblock.resource_node_gui.ticks": "100",
+      "entity.hypixel_skyblock.diamond_minion": "Diamond Minion",
+      "item.hypixel_skyblock.skyblockisland": "создатель островного портала",
+      "item.hypixel_skyblock.maurice_spawn_egg": "Maurice Spawn Egg",
+      "gui.hypixel_skyblock.resource_node_gui.label_disguise_block": "disguise block",
+      "entity.hypixel_skyblock.generic_minion": "Generic Minion",
+      "item.hypixel_skyblock.necron_armor_boots": "Hyperionarmor Boots",
+      "enchantment.hypixel_skyblock.shadowwarp": "теневая телепортация",
+      "item.hypixel_skyblock.enchanted_redstone": "зачарованный красный камень",
+      "attribute.hypixel_skyblock.betterhealth": "Betterhealth",
+      "item.hypixel_skyblock.necron_armor_leggings": "Hyperionarmor Leggings",
+      "subtitles.ultrakill_lazer": "Лазер!",
+      "enchantment.hypixel_skyblock.implosion": "Взрыв",
+      "attribute.hypixel_skyblock.resistance": "Resistance",
+      "attribute.hypixel_skyblock.strength": "сила",
+      "attribute.hypixel_skyblock.absorption": "Absorption",
+      "item.hypixel_skyblock.diamond_minion_item": "Алмазный миньон",
+      "enchantment.hypixel_skyblock.withershield": "Визер-щит",
+      "block.hypixel_skyblock.resource_node_crops": "Resource Node Crops",
+      "attribute.hypixel_skyblock.mana": "Мана",
+      "item.hypixel_skyblock.necron_armor_chestplate": "Hyperionarmor Chestplate",
+      "itemGroup.tabhypixel": "Скайблок",
+      "attribute.hypixel_skyblock.autopickup": "Autopickup",
+      "item.hypixel_skyblock.generic_minion_spawn_egg": "Generic Minion Spawn Egg",
+      "block.hypixel_skyblock.resource_node": "Resource Node",
+      "item.hypixel_skyblock.auto_smelter": "Авто-печка",
+      "gui.hypixel_skyblock.resource_node_gui.label_replace_ticks": "replace ticks",
+      "item.hypixel_skyblock.hyperion": "Гиперион",
+      "attribute.hypixel_skyblock.defence": "защита",
+      "subtitles.uk_bulletshot": "заряд в стиле ultrakill летит",
+      "gui.hypixel_skyblock.minion_gui.label_minion": "Minion",
+      "item.hypixel_skyblock.necron_armor_helmet": "Hyperionarmor Helmet",
+      "entity.hypixel_skyblock.maurice": "Maurice",
+      "item.hypixel_skyblock.mauricestaff": "посох Maurice",
+      "item.hypixel_skyblock.diamond_minion_spawn_egg": "Diamond Minion Spawn Egg",
+      "item.hypixel_skyblock.maurice_lazer_staff": "Maurice Lazer Staff",
+      "block.hypixel_skyblock.hsfe_crafting_table": "Верстак"
+    },
+    "en_us": {
+      "gui.hypixel_skyblock.resource_node_gui.ticks": "100",
+      "entity.hypixel_skyblock.diamond_minion": "Diamond Minion",
+      "item.hypixel_skyblock.skyblockisland": "Skyblock island Portal Igniter",
+      "item.hypixel_skyblock.maurice_spawn_egg": "Maurice Spawn Egg",
+      "gui.hypixel_skyblock.resource_node_gui.label_disguise_block": "disguise block",
+      "entity.hypixel_skyblock.generic_minion": "Generic Minion",
+      "item.hypixel_skyblock.necron_armor_boots": "Hyperionarmor Boots",
+      "enchantment.hypixel_skyblock.shadowwarp": "Shadow warp",
+      "item.hypixel_skyblock.enchanted_redstone": "Enchanted Redstone",
+      "attribute.hypixel_skyblock.betterhealth": "Betterhealth",
+      "item.hypixel_skyblock.necron_armor_leggings": "Hyperionarmor Leggings",
+      "subtitles.ultrakill_lazer": "ultrakill LAZER shot",
+      "enchantment.hypixel_skyblock.implosion": "Implosion",
+      "attribute.hypixel_skyblock.resistance": "Resistance",
+      "attribute.hypixel_skyblock.strength": "Strength",
+      "attribute.hypixel_skyblock.absorption": "Absorption",
+      "item.hypixel_skyblock.diamond_minion_item": "Diamond Minion",
+      "enchantment.hypixel_skyblock.withershield": "Wither shield",
+      "block.hypixel_skyblock.resource_node_crops": "Resource Node Crops",
+      "attribute.hypixel_skyblock.mana": "Mana",
+      "item.hypixel_skyblock.necron_armor_chestplate": "Hyperionarmor Chestplate",
+      "itemGroup.tabhypixel": "Hypixel",
+      "attribute.hypixel_skyblock.autopickup": "Autopickup",
+      "item.hypixel_skyblock.generic_minion_spawn_egg": "Generic Minion Spawn Egg",
+      "block.hypixel_skyblock.resource_node": "Resource Node",
+      "item.hypixel_skyblock.auto_smelter": "Auto Smelter",
+      "gui.hypixel_skyblock.resource_node_gui.label_replace_ticks": "replace ticks",
+      "item.hypixel_skyblock.hyperion": "Hyperion",
+      "attribute.hypixel_skyblock.defence": "Defence",
+      "subtitles.uk_bulletshot": "ultrakill-styled bullet shot",
+      "gui.hypixel_skyblock.minion_gui.label_minion": "Minion",
+      "item.hypixel_skyblock.necron_armor_helmet": "Hyperionarmor Helmet",
+      "entity.hypixel_skyblock.maurice": "Maurice",
+      "item.hypixel_skyblock.mauricestaff": "Maurice staff",
+      "item.hypixel_skyblock.diamond_minion_spawn_egg": "Diamond Minion Spawn Egg",
+      "item.hypixel_skyblock.maurice_lazer_staff": "Maurice Lazer Staff",
+      "block.hypixel_skyblock.hsfe_crafting_table": "Crafting Table"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "materials",
+        "children": []
+      },
+      {
+        "name": "weapons",
+        "children": [
+          {
+            "name": "hyperion",
+            "children": []
+          },
+          {
+            "name": "mauricestaff",
+            "children": []
+          },
+          {
+            "name": "livid",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "enchants",
+        "children": []
+      },
+      {
+        "name": "armor",
+        "children": []
+      },
+      {
+        "name": "specal_creative",
+        "children": [
+          {
+            "name": "NatGenerators",
+            "children": []
+          },
+          {
+            "name": "Minions",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "recipies",
+        "children": []
+      },
+      {
+        "name": "dimensions",
+        "children": []
+      },
+      {
+        "name": "attributes",
+        "children": [
+          {
+            "name": "health-related",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "commands",
+        "children": []
+      },
+      {
+        "name": "minions",
+        "children": [
+          {
+            "name": "upgrades",
+            "children": []
+          },
+          {
+            "name": "items",
+            "children": []
+          },
+          {
+            "name": "entities",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "tags",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hypixel_skyblock",
+    "modName": "hypixel skyblock",
+    "version": "1.0.0",
+    "author": "philippelevis, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.philippelevis.hypixelskyblock",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

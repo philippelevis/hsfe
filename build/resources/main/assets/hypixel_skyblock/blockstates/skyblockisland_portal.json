@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "hypixel_skyblock:block/skyblockisland_portal_ew"
+    },
+    "axis=x": {
+      "model": "hypixel_skyblock:block/skyblockisland_portal_ns"
+    }
+  }
+}

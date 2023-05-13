@@ -1,0 +1,7 @@
+Java Launcher: /home/philippelevis/.mcreator/gradle/jdks/jdk8u362-b09/bin/java
+Arguments: '--inJar, /home/philippelevis/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.26/forge-1.16.5-36.2.26-injected.jar, --outJar, /home/philippelevis/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.26_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.2.26_mapped_snapshot_20201028-1.16.3.jar, --logFile, accesstransform.log, --atFile, /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/_atJar_5/parent_at.cfg'
+Classpath:
+ - /home/philippelevis/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

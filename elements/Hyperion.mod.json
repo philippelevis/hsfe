@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hyperion",
+    "customModelName": "Normal",
+    "name": "Hyperion",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Hypixel"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 10.0,
+    "enchantability": 4,
+    "damageVsEntity": 0.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HyperionRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "HyperionLivingEntityIsHitWithTool"
+    }
+  }
+}

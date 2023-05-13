@@ -1,0 +1,279 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "statbarempty.png",
+          "use1Xscale": true,
+          "x": 214,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar_start.png",
+          "use1Xscale": true,
+          "x": 214,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar_end.png",
+          "use1Xscale": true,
+          "x": 298,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 220,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 223,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 226,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 229,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 232,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 238,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 241,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 244,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 247,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 250,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 253,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 256,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 259,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 262,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 265,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 268,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 274,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 277,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 280,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 283,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 286,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 289,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 292,
+          "y": 209
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manabar.png",
+          "use1Xscale": true,
+          "x": 295,
+          "y": 209
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 39,
+  "_type": "attribute",
+  "definition": {
+    "description": "Autopickup",
+    "minValue": 0.0,
+    "maxValue": 1.0,
+    "defaultValue": 0.0,
+    "isPersistent": true,
+    "entities": [
+      {
+        "value": "EntityPlayerMP"
+      }
+    ]
+  }
+}

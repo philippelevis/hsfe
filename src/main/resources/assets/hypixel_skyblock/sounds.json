@@ -1,0 +1,22 @@
+{
+  "uk_bulletshot": {
+    "category": "neutral",
+    "subtitle": "subtitles.uk_bulletshot",
+    "sounds": [
+      {
+        "name": "hypixel_skyblock:ultraikll_bulletshot",
+        "stream": false
+      }
+    ]
+  },
+  "ultrakill_lazer": {
+    "category": "neutral",
+    "subtitle": "subtitles.ultrakill_lazer",
+    "sounds": [
+      {
+        "name": "hypixel_skyblock:maurice_lazer_charge",
+        "stream": false
+      }
+    ]
+  }
+}

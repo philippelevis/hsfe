@@ -1,0 +1,6 @@
+JVM:         /home/philippelevis/Games/Minecraft/MCreator20231/jdk/bin/java
+JVM Args:    
+Run Args:    "--client", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/stripClient/output.jar", "--server", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/stripServer/output.jar", "--ann", "1.19.2", "--output", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/merge/output.jar", "--inject", "false"
+Classpath:   /home/philippelevis/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-fatjar.jar
+Working Dir: /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

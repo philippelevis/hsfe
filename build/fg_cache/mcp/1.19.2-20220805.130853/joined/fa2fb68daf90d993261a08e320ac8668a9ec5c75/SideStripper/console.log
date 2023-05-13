@@ -1,0 +1,9 @@
+JVM:         /home/philippelevis/Games/Minecraft/MCreator20231/jdk/bin/java
+JVM Args:    
+Run Args:    "--strip", "--input", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/AccessTransformer/output.jar", "--output", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/SideStripper/output.jar", "--data", "/home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/SideStripper/string_data.sas"
+Classpath:   /home/philippelevis/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.6/mergetool-1.1.6-fatjar.jar
+Working Dir: /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/AccessTransformer/output.jar
+Output: /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/SideStripper/output.jar
+Data:   /home/philippelevis/MCreatorWorkspaces/hypixel_skyblock/build/fg_cache/mcp/1.19.2-20220805.130853/joined/fa2fb68daf90d993261a08e320ac8668a9ec5c75/SideStripper/string_data.sas
