@@ -673,7 +673,7 @@
       "name": "GenericMinionOnInitialEntitySpawn",
       "type": "procedure",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "generic_minion_on_initial_entity_spawn",
       "metadata": {
