@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hypixel_skyblock:hyperion"
+    }
+  ],
+  "result": {
+    "item": "hypixel_skyblock:necron_armor_chestplate",
+    "count": 1
+  }
+}

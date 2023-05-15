@@ -10,6 +10,7 @@ import net.philippelevis.hypixelskyblock.item.MauriceLazerStaffItem;
 import net.philippelevis.hypixelskyblock.item.HyperionarmorArmorItem;
 import net.philippelevis.hypixelskyblock.item.HyperionItem;
 import net.philippelevis.hypixelskyblock.item.EnchantedRedstoneItem;
+import net.philippelevis.hypixelskyblock.item.EnchantedDiamondItem;
 import net.philippelevis.hypixelskyblock.item.DiamondMinionItemItem;
 import net.philippelevis.hypixelskyblock.item.AutoSmelterItem;
 import net.philippelevis.hypixelskyblock.HypixelSkyblockMod;
@@ -42,6 +43,7 @@ public class HypixelSkyblockModItems {
 			() -> new ForgeSpawnEggItem(HypixelSkyblockModEntities.GENERIC_MINION, -16764109, -16764109, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> AUTO_SMELTER = REGISTRY.register("auto_smelter", () -> new AutoSmelterItem());
 	public static final RegistryObject<Item> DIAMOND_MINION_ITEM = REGISTRY.register("diamond_minion_item", () -> new DiamondMinionItemItem());
+	public static final RegistryObject<Item> ENCHANTED_DIAMOND = REGISTRY.register("enchanted_diamond", () -> new EnchantedDiamondItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
